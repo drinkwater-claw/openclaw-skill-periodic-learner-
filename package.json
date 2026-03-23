@@ -1,0 +1,32 @@
+{
+  "name": "fragmented-learning-skill",
+  "version": "1.0.0",
+  "description": "定时从 GitHub 等平台挑选优秀项目进行拆解学习的 OpenClaw Skill",
+  "main": "scripts/fetch-github-trending.js",
+  "scripts": {
+    "test": "node scripts/fetch-github-trending.js",
+    "start": "node scripts/fetch-github-trending.js"
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "github",
+    "learning",
+    "automation"
+  ],
+  "author": "drinkwater (CTO)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drinkwater-claw/fragmented-learning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drinkwater-claw/fragmented-learning/issues"
+  },
+  "homepage": "https://github.com/drinkwater-claw/fragmented-learning#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
